@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+body {
+    background-color: #FCFAF9;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.desktop-2 {
+    display: none;
+}
+
+.desktop-1img {
+    display: none;
+}
+
+.desktop-3 {
+    display: none;
+}
+
+.desktop-4 {
+    display: none;
+}
+
+.black-div {
+    display: none;
+}
+
+.first-image {
+    height: 240px;
+}
+
+.image-tablet {
+    display: none;
+}
+
+.grid-1 {
+    display: none;
+}
+
+.second-img {
+    display: none;
+}
+
+.art-gallery {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.visit-us {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin-top: 32px;
+    width: 343px;
+    margin-left: 16px;
+}
+
+.tablet-2 {
+    display: none;
+}
+
+.tablet-3 {
+    display: none;
+}
+
+.child-container {
+    display: flex;
+    margin-bottom: 120px;
+    margin-left: 16px;
+}
+
+.location {
+    width: 204px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: 3.63636px;
+    margin-top: 32px;
+   
+}
+
+.link {
+    text-decoration: none;
+}
+
+.idk {
+    margin-top: 32px;
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-image {
+    width: 343px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.your-creative {
+    margin: 16px auto;
+}
+
+.your-day {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 25px 0px 0px 16px;
+}
+
+.image-tablet {
+    display: none;
+}
+
+.creative {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    margin: 21px 0px 32px 16px;
+}
+
+.img-1 {
+    width: 343px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 16px auto;
+}
+
+.img-2 {
+    width: 343px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 16px auto;
+}
+
+.last-container {
+    gap: 24px;
+    background-color: #151515;
+    width: 343px;
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.come {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+.influence {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+footer {
+    width: 100%;
+    height: 336px;
+    background-color: black;
+    margin-top: 120px;
+}
+
+.modern-art {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 38px 32px;
+}
+
+.logo {
+    margin-top: 48px;
+    margin-left: 32px;
+}
+
+.icons {
+    margin-left: 32px;
+}
+
+.facebook {
+    margin-right: 20px;
+}
+
+
+/* TABLET VERSION */
+
+@media screen and (min-width:768px) {
+    .first-image {
+        display: none;
+    }
+
+    .second-img {
+        display: block;
+        width: 437px;
+        height: 700px;
+        margin: 0px 331px auto 0px;
+    }
+
+    .second-image {
+        display: none;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .first-container {
+        flex-direction: row;
+    }
+
+    .container {
+        margin-left: -400px;
+        margin-top: 105px;
+    }
+
+    .art-gallery {
+        margin-bottom: 40px;
+    }
+
+    .visit-us {
+        margin-bottom: 25px
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 400px 200px;
+        grid-template-rows: 400px 313px 396px;
+        margin: 120px auto;
+        column-gap: 11px;
+        row-gap: 11px;
+        width: 689px;
+    }
+
+    .your-creative {
+        grid-column: 1;
+        grid-row: 1;
+        width: 223px;
+        height: 190px;
+        margin-left: -10px;
+    }
+
+    .grid-1 {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        width: 398px;
+        height: 400px;
+        margin-left: -118px;
+    }
+
+    .tablet-2 {
+        display: block;
+        grid-column: 1;
+        grid-row: 2;
+        width: 398px;
+        height: 720px;
+    }
+
+    .tablet-3 {
+        display: block;
+        grid-column: 2;
+        grid-row: 2;
+        width: 280px;
+        height: 313px;
+    }
+
+    .last-container {
+        grid-column: 2;
+        grid-row: 3;
+        width: 280px;
+        height: 396px;
+    }
+
+    footer{
+        height: 216px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+    .logo {
+        width: 110px;
+        height: 40px;
+        padding-top: 10px;
+      
+    }
+
+    .modern-art {
+        width: 280px;
+        padding-top: 15px;
+    }
+
+    .icons {
+        padding-top: 55px;
+    }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 1440px) {
+    .black-div {
+        display: block;
+        background-color: black;
+        width: 450px;
+        height: 800px;
+        margin-left: 0px;
+    }
+
+    .first-image {
+        display: none;
+    }
+
+    .tablet-2 {
+        display: none;
+    }
+
+    .tablet-3 {
+        display: none;
+    }
+
+    .second-img {
+        display: none;
+    }
+
+    .grid-1 {
+        display: none;
+    }
+
+    .desktop-1img {
+        display: block;
+        width: 540px;
+        height: 800px;
+        margin-left: 0px
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-left: 160px;
+
+    }
+
+   
+
+    .main {
+        width: 1110px;
+        row-gap: 20px;
+    }
+
+    .mini {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    .art-gallery {
+        font-size: 96px;
+        line-height: 88px;
+        color: white;
+        width: 514px;
+    }
+
+    .visit-us {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        color: #444444;
+    }
+
+    .first-container {
+        justify-content: start;
+    }
+
+    .last-container {
+        width: 445px;
+        height: 377px;
+        margin-left: 190px;
+
+    }
+
+    .desktop-2 {
+        display: block;
+        width: 635px;
+        height: 400px;
+    }
+
+    .desktop-3 {
+        display: block;
+        width: 580px;
+        height: 720px;
+    }
+
+    .desktop-4 {
+        display: block;
+        width: 445px;
+        height: 313px;
+        margin-left: 190px;
+    }
+
+    .come {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .influence {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .your-creative {
+        width: 350px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        height: 244px;
+        justify-content: space-around;
+        align-items: start;
+    }
+
+    .logo {
+        width: 160px;
+        height: 58px;
+        padding-top: 30px;
+        
+    }
+
+    .modern-art {
+        width: 430px;
+        padding-top: 30px;
+    }
+
+    .icons {
+        padding-top: 70px;
+    }
+
+    .location {
+        cursor: pointer;
+    }
+
+    .location:hover {
+        background-color: #D5966C;
+    }
+
+
+}
